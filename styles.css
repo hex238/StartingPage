@@ -10,8 +10,9 @@ body {
 }
 
 .font-style {
-  font-family: Arial;
+  font-family: 'Fira Code', monospace;
   font-size: 20px;
+  font-weight: 400;
 }
 
 main {
@@ -57,8 +58,8 @@ main {
   bottom: 10px;
   width: 100%;
   text-align: center;
-  font-size: 14px;
-  font-style: italic;
+  font-size: 13px;
+  font-style: normal;
   color: gray;
 }
 
