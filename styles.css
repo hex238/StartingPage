@@ -9,15 +9,14 @@ body {
   background-color: #212121;
 }
 
-.font-style {
-  font-family: 'Fira Code', monospace;
+.main-font {
+  font-family: Fira_Code;
   font-size: 20px;
-  font-weight: 400;
 }
 
 main {
   text-align: center;
-  margin-top: 130px;
+  margin-top: 150px;
 }
 
 .nav {
@@ -70,5 +69,10 @@ main {
 
 .footer a:hover {
   color: white;
+}
+
+@font-face {
+  font-family: Fira_Code;
+  src: url(FiraCode-Regular.ttf);
 }
 /*# sourceMappingURL=styles.css.map */
